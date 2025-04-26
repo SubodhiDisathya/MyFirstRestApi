@@ -11,4 +11,5 @@ public class AppDbContext : DbContext
     }
 
     public DbSet<TestUser> TestUsers { get; set; } = null!;
+    public DbSet<Cart> Carts { get; set; } = null!;
 }
